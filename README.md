@@ -27,3 +27,28 @@ Big-O gösterimini yazınız.
 ### Cevaplar
 1. [16,21,11,8,12,22] => [16,21,11] , [8,12,22] => [16,21] , [11] , [8,12] , [22] => [16] , [21] , [11] , [8] , [12] , [22] => [16,21] , [11] , [8,12] , [22] => [11, 16,21] , [8,12,22] => [8,11,12,16,21,22] 
 2. O(logn)
+
+## Proje 3
+### Sorular
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+### Cevaplar
+[0,1,2,3,4,5,6,7,8,9]
+root değeri = 5 
+
+                 5 
+            /         \
+           3           7
+         /   \        /  \
+        2     4      6    8
+       /                   \
+      1                     9
+     /
+    0
+    
+    
+Dengeli bir dağılım için;
+Sağında = 7
+Solunda = 3
