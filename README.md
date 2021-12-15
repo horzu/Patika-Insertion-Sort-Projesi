@@ -1,5 +1,5 @@
 # Patika-Insertion-Sort-Projesi
-Patika Insertion Sort Projesi Çözümü
+## Proje 1
 
 ## [22,27,16,2,18,6] -> Insertion Sort
 
@@ -16,3 +16,14 @@ Patika Insertion Sort Projesi Çözümü
 3. Avarage Case: 16,18 Worst Case: 27 Best Case: 2
 4. Avarage Case
 5. [7,3,5,8,2,9,4,15,6] => [2,3,5,8,7,9,4,15,6] => [2,3,4,8,7,9,5,15,6] => [2,3,4,5,7,9,8,15,6] => [2,3,4,5,6,9,8,15,7] 
+
+## Proje 2
+### Sorular
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+### Cevaplar
+1. [16,21,11,8,12,22] => [16,21,11] , [8,12,22] => [16,21] , [11] , [8,12] , [22] => [16] , [21] , [11] , [8] , [12] , [22] => [16,21] , [11] , [8,12] , [22] => [11, 16,21] , [8,12,22] => [8,11,12,16,21,22] 
+2. O(logn)
